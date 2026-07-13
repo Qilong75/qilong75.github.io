@@ -1,4 +1,37 @@
 baseURL = 'https://qilong75.github.io/'
 languageCode = 'zh-cn'
 title = 'Qilong Blog'
-theme = 'default'
+theme = 'terminal'
+pagination.pagerSize = 5
+
+[markup.highlight]
+  noClasses = false
+
+[params]
+  contentTypeName = "posts"
+  showMenuItems = 3
+  showLanguageSelector = false
+  fullWidthTheme = false
+  centerTheme = false
+  autoCover = true
+  showLastUpdated = false
+  readMore = "阅读全文"
+  readOtherPosts = "阅读其他文章"
+  menuMore = "更多"
+  newerPosts = "较新的文章"
+  olderPosts = "较早的文章"
+  missingContentMessage = "页面不存在"
+  missingBackButtonLabel = "回到首页"
+  minuteReadingTime = "分钟阅读"
+  words = "字"
+
+[params.logo]
+  logoText = "Qilong Blog"
+  logoHomeLink = "/"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10

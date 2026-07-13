@@ -1,6 +1,6 @@
 # Qilong Blog
 
-This repository is a clean Hugo site initialized with `hugo new site`.
+This repository is a Hugo site using the Terminal theme.
 
 ## Local development
 
@@ -8,14 +8,6 @@ Install Hugo Extended, then run:
 
 ```bash
 hugo server --buildDrafts
-```
-
-## Add a theme
-
-Install a Hugo theme under `themes/`, then set it in `hugo.toml`:
-
-```toml
-theme = "theme-name"
 ```
 
 ## Add a post
