@@ -1,3 +1,4 @@
 baseURL = 'https://qilong75.github.io/'
 languageCode = 'zh-cn'
 title = 'Qilong Blog'
+theme = 'default'
