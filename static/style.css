@@ -1,0 +1,91 @@
+body {
+  min-height: 100vh;
+}
+
+.container {
+  width: min(100%, 1080px);
+  margin-inline: auto;
+  border-left: 1px solid color-mix(in srgb, var(--accent) 10%, transparent);
+}
+
+button,
+.button,
+a.button,
+a.read-more,
+.navigation-menu__inner a,
+.menu__dropdown a,
+.header__logo a,
+.menu__trigger,
+.logo {
+  transition:
+    background-color 150ms ease,
+    color 150ms ease,
+    border-color 150ms ease,
+    box-shadow 150ms ease,
+    transform 150ms ease;
+}
+
+@media (hover: hover) {
+  button:hover,
+  .button:hover,
+  a.button:hover,
+  .menu__trigger:hover {
+    background: color-mix(in srgb, var(--accent) 16%, transparent);
+    color: var(--foreground);
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 36%, transparent);
+  }
+
+  a.read-more:hover,
+  a.button.inline:hover {
+    background: color-mix(in srgb, var(--accent) 16%, transparent);
+    color: var(--foreground);
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 36%, transparent);
+    transform: translateY(-1px);
+  }
+
+  .navigation-menu__inner a:hover,
+  .menu__dropdown a:hover {
+    background: color-mix(in srgb, var(--accent) 16%, transparent);
+    color: var(--foreground);
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 36%, transparent);
+    text-decoration: none;
+  }
+
+  .header__logo a:hover {
+    background: none;
+    box-shadow: none;
+  }
+
+  .header__logo a:hover .logo {
+    background: var(--foreground);
+    color: var(--background);
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--foreground) 28%, transparent);
+  }
+}
+
+button:focus-visible,
+.button:focus-visible,
+a.button:focus-visible,
+a.read-more:focus-visible,
+.navigation-menu__inner a:focus-visible,
+.menu__dropdown a:focus-visible,
+.menu__trigger:focus-visible {
+  background: color-mix(in srgb, var(--accent) 20%, transparent);
+  color: var(--foreground);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 45%, transparent);
+}
+
+a.read-more,
+a.button.inline {
+  margin-block: 2px;
+  padding: 4px 8px;
+}
+
+@media (max-width: 684px) {
+  .container {
+    width: 100%;
+    margin-inline: 0;
+    border-left: none;
+    border-right: none;
+  }
+}
