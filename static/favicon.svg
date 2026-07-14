@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Codex terminal icon">
+  <rect width="512" height="512" rx="112" fill="#151515"/>
+  <rect x="56" y="56" width="400" height="400" rx="80" fill="#1f1f1f" stroke="#ffa86a" stroke-width="20"/>
+  <path d="M229 167 126 256l103 89" fill="none" stroke="#8abeb7" stroke-width="44" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M284 343h112" fill="none" stroke="#ffa86a" stroke-width="44" stroke-linecap="round"/>
+  <circle cx="363" cy="169" r="28" fill="#f0c674"/>
+</svg>
