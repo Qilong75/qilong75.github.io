@@ -92,6 +92,12 @@ a.button.inline {
   border: 1px solid color-mix(in srgb, var(--accent) 36%, transparent);
 }
 
+a.read-more::after,
+a.button.inline::after {
+  content: none !important;
+  display: none !important;
+}
+
 @media (max-width: 684px) {
   .container {
     width: 100%;
