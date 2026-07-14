@@ -94,6 +94,9 @@ a.button.inline {
   margin-block: 0;
   padding: 1px 3px;
   border: 1px solid transparent;
+  font-family: "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace;
+  font-weight: 700;
+  letter-spacing: 0.02em;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
 }
